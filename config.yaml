@@ -16,7 +16,7 @@ params:
   # Open graph allows easy social sharing. If you don't want it you can set it to false or just delete the variable
   openGraph: true
   # Used as meta data; describe your site to make Google Bots happy
-  description:
+  description: Мы используем опыт миллионов продавцов и искуственный интелект чтобы помочь вам
   navbarlogo:
   # Logo (from static/images/logos/___)
     image: logos/ratehub.svg
@@ -28,7 +28,7 @@ params:
     # Main hero title
     title: Как улучшить ваши карточки товаров?
     # Hero subtitle (optional)
-    subtitle: Мы используем опыт миллионов продавцов и искуственный интелект чтоб помочь вам
+    subtitle: Мы используем опыт миллионов продавцов и искуственный интелект чтобы помочь вам
     # Button text
     buttontext: Попробовать
     # Where the main hero button links to
