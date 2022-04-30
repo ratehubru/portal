@@ -19,20 +19,20 @@ params:
   description:
   navbarlogo:
   # Logo (from static/images/logos/___)
-    image: logos/fresh.svg
+    image: logos/ratehub.svg
     link: /
   font:
     name: "Open Sans"
     sizes: [400,600]
   hero:
     # Main hero title
-    title: Manage. Deploy.
+    title: Как улучшить ваши карточки товаров?
     # Hero subtitle (optional)
-    subtitle: Lorem ipsum sit dolor amet is dummy text used by the typography industry
+    subtitle: Мы используем опыт миллионов продавцов и искуственный интелект чтоб помочь вам
     # Button text
-    buttontext: Get started
+    buttontext: Попробовать
     # Where the main hero button links to
-    buttonlink: "#"
+    buttonlink: "/try"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
@@ -44,7 +44,7 @@ params:
     - gutwork
   # Customizable navbar. For a dropdown, add a "sublinks" list.
   navbar:
-  - title: Features
+  - title: Наши преимущества
     url: /
   - title: Pricing
     url: /
@@ -56,59 +56,64 @@ params:
       url: /
     - title: Dropdown item
       url: /
-  sidebar:
-    # Logo (from /images/logos/___.svg)
-    logo: fresh-square
-    sections:
-    - title: User
-      icon: user
-      links:
-      - text: Profile
-        url: /
-      - text: Account
-        url: /
-      - text: Settings
-        url: /
-    - title: Messages
-      icon: envelope
-      links:
-      - text: Inbox
-        url: /
-      - text: Compose
-        url: /
-    - title: Images
-      icon: image
-      links:
-      - text: Library
-        url: /
-      - text: Upload
-        url: /
-    - title: Settings
-      icon: cog
-      links:
-      - text: User settings
-        url: /
-      - text: App settings
-        url: /
+  # - title: Log in
+  #   url: /
+  # - title: Sign up
+  #   url: /
+  #   button: true
+  # sidebar:
+  #   # Logo (from /images/logos/___.svg)
+  #   logo: fresh-square
+  #   sections:
+  #   - title: User
+  #     icon: user
+  #     links:
+  #     - text: Profile
+  #       url: /
+  #     - text: Account
+  #       url: /
+  #     - text: Settings
+  #       url: /
+  #   - title: Messages
+  #     icon: envelope
+  #     links:
+  #     - text: Inbox
+  #       url: /
+  #     - text: Compose
+  #       url: /
+  #   - title: Images
+  #     icon: image
+  #     links:
+  #     - text: Library
+  #       url: /
+  #     - text: Upload
+  #       url: /
+  #   - title: Settings
+  #     icon: cog
+  #     links:
+  #     - text: User settings
+  #       url: /
+  #     - text: App settings
+  #       url: /
   section1:
-    title: Great power comes
-    subtitle: with great responsibility
+    title: Наши преимущества
+    subtitle: Мы лучшие на рынке анализа
     tiles:
-    - title: App builder
+    - title: Опыт продавцов
       icon: mouse-globe
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Free trial
-    - title: Cloud integration
+      text: Уже 1345 продавца доверили нам анализ
+      # url: /
+      # buttonText: Искуственный интеллект
+    - title: Искуственный интеллект
       icon: laptop-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
-    - title: Add-ons & plugins
+      text: Мы проанализировали все товары в Рунете
+      # url: /
+      # buttonText: Get started
+    - title: Всегда доступно
       icon: plug-cloud
-      text: This is some explanatory text that is on two rows
-      url: /
-      buttonText: Get started
+      text: Множество вариантов доступа
+      # url: /
+      # buttonText: Get started
   section2:
     title: You're here because you want the best
     subtitle: And we know it
