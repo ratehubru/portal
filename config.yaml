@@ -32,7 +32,7 @@ params:
     # Button text
     buttontext: Попробовать
     # Where the main hero button links to
-    buttonlink: "/try"
+    buttonlink: "#try"
     # Hero image (from static/images/___)
     image: illustrations/worker.svg
     # Footer logos (from static/images/logos/clients/___.svg)
