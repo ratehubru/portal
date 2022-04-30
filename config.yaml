@@ -1,6 +1,6 @@
 baseURL: http://something-fresh.org/
 languageCode: ru-ru
-title: Hugo Fresh Theme
+title: RateHub - Анализ карточек товаров на всех маркетплейсах
 theme: hugo-fresh
 googleAnalytics: # Put in your tracking code without quotes like this: UA-XXXXXX...
 # Disables warnings
